@@ -17,7 +17,7 @@ install_files() {
     ui_print " Signature verification must be disabled"
     ui_print " mandatory for MIUI 14 users based on" 
     ui_print " Android 13; otherwise, the module will"
-    ui_print " not work. "
+    ui_print " not work. Also may not work either way. "
     ui_print ""
     ui_print " Select your preferred theme:"
     ui_print ""
