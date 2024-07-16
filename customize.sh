@@ -25,14 +25,14 @@ install_files() {
     ui_print "  Vol- = Dark background"
     ui_print ""
     
-    mkdir -p "$MODPATH/system/product/overlay"
+    mkdir -p "$MODPATH/product/overlay"
     
     if chooseport; then
         ui_print "- Transparent background selected"
-        cp -rf "$MODPATH/files/overlay/TransparentBG.apk" "$MODPATH/system/product/overlay"
+        cp -rf "$MODPATH/files/overlay/TransparentBG.apk" "$MODPATH/product/overlay"
     else
         ui_print "- Dark background selected"
-        cp -rf "$MODPATH/files/overlay/DarkBG.apk" "$MODPATH/system/product/overlay"
+        cp -rf "$MODPATH/files/overlay/DarkBG.apk" "$MODPATH/product/overlay"
     fi
     
     local plugin_package="miui.systemui.plugin"
@@ -48,8 +48,8 @@ install_files() {
     
     mv "$MODPATH/files/plugin/MiuiPluginMod.apk" "$MODPATH/files/plugin/$plugin_name.apk"
     
-    mkdir -p "$MODPATH/system$plugin_folder"
-    cp -f "$MODPATH/files/plugin/$plugin_name.apk" "$MODPATH/system$plugin_folder"
+    mkdir -p "$MODPATH/$plugin_folder"
+    cp -f "$MODPATH/files/plugin/$plugin_name.apk" "$MODPATH/$plugin_folder"
     
     mkdir -p "$MODPATH/system/app/PluginExtension"
     cp -f "$MODPATH/files/extension/PluginExtension.apk" "$MODPATH/system/app/PluginExtension"
