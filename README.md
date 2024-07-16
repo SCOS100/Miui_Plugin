@@ -12,15 +12,15 @@ Its installation is via Magisk on MIUI 13-14 based ROMs with Android 12 or highe
 • Monet in CC by default
 • Only for A12/A13
 
-For issues or questions you can send a message in [Telegram](https://t.me/amogus_discussion) group.
+For issues or questions you can send a message in [Telegram](https://t.me/amogus_discussion) group. (Outdated and probably not recommended as this is a separate project using a fork of the original.)
 
 
 ### Download
 
-Download from [releases page](https://github.com/Mods-Center/Miui_Plugin_Mod/releases)
+Download from [releases page](https://github.com/SCOS100/Miui_Plugin/releases) (Not yet any.)
 
 ### Note
-• Signature verification must be disabled mandatory for MIUI 14 users based on Android 13; otherwise, the module will not work. 
+• Signature verification must be disabled mandatory for MIUI 14 users based on Android 13; otherwise, the module will not work. Also note this module is very scuffed and will not work most of the time. I am actively trying to fix this but no promises are made.
 
 **Instructions**
 • Download and flash the zip in magisk 
@@ -39,7 +39,7 @@ Download from [releases page](https://github.com/Mods-Center/Miui_Plugin_Mod/rel
 
 | Download Mods | Total |
 | --- | --- |
-| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/Mods-Center/Miui_Plugin/total?logo=GitHub&style=for-the-badge&color=blue) |
+| GitHub Releases | ![GitHub all releases](https://img.shields.io/github/downloads/SCOS100/Miui_Plugin/total?logo=GitHub&style=for-the-badge&color=blue) |
 
 
 
